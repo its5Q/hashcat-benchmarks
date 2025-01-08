@@ -2,7 +2,7 @@
 A centralized collection of full hashcat benchmarks done on the latest version with lots of GPUs. I would love to include GPU vendor information, but I don't think it's possible to retrieve it inside a docker container. You are welcome to contribute benchmarks from your own machines, just open a PR. Also, please stick to the same file naming scheme, and include machine specs if possible.  
 
 I used the following bash snippet to run benchmarks on different machines from vast.ai:
-```
+```bash
 wget https://hashcat.net/beta/hashcat-6.2.6%2B813.7z
 apt install -y 7zip inxi
 7zz x hashcat-6.2.6+813.7z
